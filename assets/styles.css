@@ -282,7 +282,8 @@ a{
     display: flex;
     flex-wrap: wrap;
     gap: 12.5%;
-    justify-content: center;   
+    justify-content: center;
+    width: 100%;
 }
 
 #nombre{
@@ -334,7 +335,7 @@ input::placeholder{
 .layout_contacto_enviar{
     display: flex;
     justify-content: center;
-    margin-top: 21%;  
+    margin-top: 18%;  
 }
 
 #enviar{

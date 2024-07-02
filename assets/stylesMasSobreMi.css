@@ -1,3 +1,6 @@
+
+/* Estilos para la página Más sobre Mí*/
+
 body {
     background-color: black;
     width: 80%;
@@ -16,6 +19,7 @@ body {
     background-color: #FBD9D9;
 }
 
+/* Estilos para la cabecera*/
 .layout_cabecera {
     background-color: white;
     height: 5%;
@@ -58,6 +62,8 @@ a {
     text-decoration: none;
     color: black;
 }
+
+/* Estilos para el resto de la página*/
 
 .layout_masSobremi {
     width: 100%;
