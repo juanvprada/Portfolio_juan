@@ -1,0 +1,393 @@
+
+body{
+    background-color: black;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;   
+}
+
+.layout{
+    width: 100%; 
+}
+
+.layout_cabecera{
+    background-image: url(../assets/imgs/Fondos/fondocabecera.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 25%;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    
+}
+
+.layout_cabecera_botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 50px;
+    margin-top: 22px;
+}
+.layout_cabecera_botones_span{
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+    border: none;
+}
+
+.layout_cabecera_botonesArriba{
+    border: none;
+    background-color: #FBD9D9; 
+    border-radius: 3%;
+    font-size: 20px;
+}
+
+
+.enlacesArriba{
+    text-decoration: none;
+    color: black;
+    
+}
+.enlacesArriba:hover{
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.layout_cabecera_logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+.layout_cabecera_logo_titulo{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 6.5%;
+    border: 1px solid black;
+    padding: 1%;
+    
+     
+    animation: mianimationborde;
+    animation-duration: 4s;
+}
+
+@keyframes mianimationborde {
+    0% {border: 1px solid black;}
+    25% {border: 1px solid gray;}
+    50% {border: 1px solid rgb(209, 205, 205);}
+    100% {border: 1px solid white;}
+    
+}
+.layout_cabecera_logo_titulo_h1{
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Julius Sans One", sans-serif;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+    animation: animaciontitulo;
+    animation-duration: 4s;
+
+}
+
+@keyframes animaciontitulo {
+    0% {
+        transform: scale(0);
+        color: black;
+    }
+    50% {
+        transform: scale(1);
+        color: #D79E1A;
+    } 
+}
+
+.layout_cabecera_logo_titulo_h2{
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Julius Sans One", sans-serif;
+    margin-block-start: 0%;
+    margin-block-end: 0%; 
+
+    animation: animaciontituloh2;
+    animation-duration: 4s;
+}
+
+@keyframes animaciontituloh2 {
+    0% {
+        transform: scale(0);
+        color: #D79E1A;
+    }
+    25%{
+        color: black;
+    }
+    85% {
+        transform: scale(1);
+        color: #D79E1A;
+    }
+}
+
+.layout_cabecera_logo_foto{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    margin-top: 8%; 
+}
+
+#foto_juan{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+
+.layout_sobremi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 16%;
+}
+
+.layout_sobremi_textos{
+    width: 70%;
+    height: 16px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 8%;
+}
+.layout_sobremi_textos_titulo{
+    color: #FF6A6A;
+    font-size: 33px;
+    font-weight: 400;
+    font-family: "Julius Sans One", sans-serif;
+}
+
+.layout_sobremi_textos_parrafo{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Julius Sans One", sans-serif;
+}
+
+.layout_trabajos{
+    height: 29%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFF4F4; 
+    padding-bottom: 4%;
+}
+
+.layout_trabajos_titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.layout_trabajos_titulo_h1{
+    color: #FF6A6A;
+    font-size: 38px;
+    font-weight: 400;
+    font-family: "Julius Sans One", sans-serif;
+    position: relative;
+    top: -30%;
+
+}
+.layout_trabajos_articulos{
+    display: flex;
+    flex-direction: column;
+}
+
+.layout_trabajos_trabajo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout_trabajos_trabajo:hover{
+    transform: scale(1.1);
+}
+
+.layout_trabajos_articulos_bloque{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: center;
+}
+
+.layout_trabajos_h2{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Julius Sans One", sans-serif;
+    color: black;   
+}
+.layout_trabajos_h3{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Julius Sans One", sans-serif;
+    color: #FF4A4A;
+    position: relative;
+    top: -8%;
+}
+.trabajos_img{
+    width: 235px;
+    height: 235px;
+    border-radius: 5px;
+}
+
+.layout_contacto{
+    background-color: white;
+    height: 24.119%;
+    display: flex;
+    flex-direction: column;
+}
+
+.layout_contacto_titulo{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+}
+.layout_contacto_h1{
+    font-size: 38px;
+    font-weight: 400;
+    font-family: "Julius Sans One", sans-serif;
+    margin-top: 30%;
+    color: black;
+}
+.layout_contacto_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+}
+.layout_contacto_nombreymail{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12.5%;
+    justify-content: center;   
+}
+
+#nombre{
+    width: 23%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Julius Sans One", sans-serif;
+    color: black;
+}
+#email{
+    width: 23%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Julius Sans One", sans-serif;
+    color: black;
+}
+.layout_contacto_mensaje{
+    display: flex;
+    justify-content: center;
+    height: 25%; 
+}
+
+#mensaje{
+    width: 51.5%;
+    height: 150%;
+    padding: 4%;
+    margin-top: 3%;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Julius Sans One", sans-serif;
+    color: black;
+}
+
+input::placeholder{
+    color: #FF4A4A;
+}
+
+.layout_contacto_enviar{
+    display: flex;
+    justify-content: center;
+    margin-top: 21%;  
+}
+
+#enviar{
+    width: 12%;
+    height: 100%;
+    background-color: #FFD4D4;
+    border: 2px solid #FF4A4A;
+    border-radius: 5px;
+    color: #FF4A4A;
+    font-size: 30px;
+    font-weight: 400;
+}
+#enviar:hover{
+    transform: scale(1.1);
+}
+button{
+    background-color:#FBD9D9;
+    border: none;
+}
+
+.layout_footer{
+    background-color: #FFA4A4;
+    height: 10%;
+}
+
+.layout_footer_redes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4%;
+    padding-top: 6%;
+}
+
+.layout_footer_redes_logos{
+    width: 114px;
+    height: 114px;
+    border-radius: 100%;
+}
+.layout_footer_redes_logos:hover{
+    transform: scale(1.1);
+}
+
+.layout_footer_copy{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+.layout_footer_copy_h2{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Julius Sans One", sans-serif;
+    color: black;
+}
+
+
+

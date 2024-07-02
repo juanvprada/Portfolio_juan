@@ -1,0 +1,361 @@
+body {
+    background-color: black;
+    width: 80%;
+    height: 100%x;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    animation: animationSobreMi;
+    animation-duration: 4s;
+}
+
+.layout {
+    width: 100%;
+    height: 75%;
+    background-color: #FBD9D9;
+}
+
+.layout_cabecera {
+    background-color: white;
+    height: 5%;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+}
+
+.layout_cabecera_botones {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+
+}
+
+.layout_cabecera_botones_span {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+    border: none;
+}
+
+#casa:hover {
+    color: #D79E1A;
+}
+
+.layout_cabecera_boton_sobre {
+
+    border: none;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.layout_masSobremi {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.layout_cabecera_titulo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+
+}
+
+.layout_masSobremi_h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Julius Sans One", sans-serif;
+    color: #FF4A4A;
+    text-decoration: underline;
+    margin-bottom: 3%;
+
+    animation: animationSobreMi;
+    animation-duration: 4s;
+}
+
+@keyframes animationSobreMi {
+    0% {
+        transform: scale(0);
+    }
+
+    85% {
+        transform: scale(1);
+    }
+
+}
+
+.layout_masSobremi_articulos_art1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.layout_masSobremi_articulos_art1_fondoParrafo1 {
+    background-color: #FBD9D9;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.layout_masSobremi_articulos_art1_parrafo1 {
+    width: 60%;
+    text-align: center;
+}
+
+.layout_sobremi_textos_parrafo {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Julius Sans One", sans-serif;
+}
+
+.layout_masSobremi_articulos_art1_iconos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 1%;
+}
+
+.layout_masSobremi_articulos_art1_iconosFotos {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+.layout_masSobremi_articulos_art1_iconosFotos:hover {
+    transform: scale(1.1);
+}
+
+.fotosTecnologias {
+    width: 114px;
+    height: 114px;
+    border-radius: 100%;
+}
+
+.pieTecnologias {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #FF4A4A;
+    font-family: "Julius Sans One", sans-serif;
+    text-decoration: underline;
+}
+
+.layout_masSobremi_articulos_art2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2%;
+    background-color: white;
+}
+
+.layout_masSobremi_articulos_art2_fondoParrafo2 {
+    background-color: #FBD9D9;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.layout_masSobremi_articulos_art2_parrafo2 {
+    width: 60%;
+    text-align: center;
+}
+
+.layout_masSobremi_articulos_art2_iconos2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.layout_masSobremi_articulos_art2_iconos2_123aficiones {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.layout_masSobremi_articulos_art2_iconos2_456aficiones {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.fotosAficiones {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.pies_fotos_aficiones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.layout_masSobremi_articulos_art2_iconos2_bloques {
+    width: 235px;
+    height: 304px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout_masSobremi_articulos_art2_iconos2_bloques:hover {
+    transform: scale(1.1);
+}
+
+.aficiones_img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.layout_aficiones_h2 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #FF4A4A;
+    font-family: "Julius Sans One", sans-serif;
+    text-decoration: underline;
+    padding-top: 2%;
+}
+
+
+@media (max-width: 767px) {
+
+    html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .layout {
+        width: 100%;
+    }
+
+    .layout_cabecera {
+        width: 100%;
+    }
+
+    .layout_masSobremi_h1 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 400;
+        font-family: "Julius Sans One", sans-serif;
+        color: #FF4A4A;
+        text-decoration: underline;
+        margin-top: 0%;
+    }
+
+    .layout_masSobremi_articulos_art2_iconos2_123aficiones a article {
+        width: 100%;
+    }
+
+    .layout_cabecera_botones {
+        width: 100%;
+        height: 13px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .layout_cabecera_botones_span {
+        font-family: "Julius Sans One", sans-serif;
+        font-weight: lighter;
+        font-size: 12px;
+    }
+
+    .layout_masSobremi {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 3%;
+    }
+
+    .layout_masSobremi_h1 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 400;
+        font-family: "Julius Sans One", sans-serif;
+        color: #FF4A4A;
+        text-decoration: underline;
+        margin-top: 6%;
+    }
+
+    .fotosTecnologias {
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+    }
+
+    .aficiones_img {
+        width: 110px;
+        height: 110px;
+        border-radius: 100%;
+    }
+}
+
+
+@media (min-width:475px) and (max-width:1392px) {
+
+    .layout_masSobremi_h1 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 400;
+        font-family: "Julius Sans One", sans-serif;
+        color: #FF4A4A;
+        text-decoration: underline;
+        margin-top: 3%;
+    }
+
+
+}
+
+@media (min-width:795px) and (max-width:1392px) {
+
+    .layout_masSobremi_h1 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 400;
+        font-family: "Julius Sans One", sans-serif;
+        color: #FF4A4A;
+        text-decoration: underline;
+        margin-top: 2%;
+    }
+
+
+}

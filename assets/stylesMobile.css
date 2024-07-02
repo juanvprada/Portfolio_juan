@@ -1,0 +1,306 @@
+@media (min-width:375px) and (max-width:1231px) {
+    body{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin: 0%;
+        padding: 0%;    
+    }
+    
+    .layout{
+        width: 100%; 
+    }
+    
+    .layout_cabecera{
+        background-image: url(../assets/imgs/Fondos/fondocabecera.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 375px;
+    }
+    
+    nav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+    }
+    
+    .layout_cabecera_botones{
+        width: 100%;
+        height: 13px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .layout_cabecera_botones_span{
+        font-family: "Julius Sans One", sans-serif;
+        font-weight: lighter;
+        font-size: 12px;
+    }
+    
+    .layout_cabecera_logo{
+        margin-top: 40px;
+    }
+    .layout_cabecera_logo_titulo{
+        width: 262px;
+        height: 125px;
+        margin-top: 8px;
+         
+    }
+    .layout_cabecera_logo_titulo_h1{
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .layout_cabecera_logo_titulo_h2{
+        font-size: 18px;
+    }
+    
+    .layout_cabecera_logo_foto{
+        margin-top: 80px; 
+    }
+    
+    #foto_juan{
+        width: 150px;
+        height: 151.52px;
+    }
+    
+    .layout_sobremi{
+        background-color: white;
+        width: 100%;
+        height: 550px;
+    }
+    
+    .layout_sobremi_textos{
+        width: 261px;
+        height: 344px;
+        margin-top: 120px;
+    }
+    .layout_sobremi_textos_titulo{
+        font-size: 33px;
+    }
+    
+    .layout_sobremi_textos_parrafo{
+        font-size: 20px;
+    }
+    
+    .layout_trabajos{
+        width: 100%;
+        height: 3733px;   
+    }
+    
+    .layout_trabajos_titulo{
+        width: 100%;
+        height: 33px;
+        margin-bottom: 14%;
+        margin-top: 2%;
+    }
+    
+    .layout_trabajos_titulo_h1{
+        font-size: 30px; 
+    }
+    .layout_trabajos_articulos{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .layout_trabajos_trabajos{
+        width: 315px;
+        height: 426px;
+    }
+    
+    .layout_trabajos_articulos_bloque{
+        gap: 20px;  
+    }
+    
+    .layout_trabajos_h2{
+        font-size: 20px;
+    }
+    .layout_trabajos_h3{
+        font-size: 18px;
+        top: -30px;
+    }
+    .trabajos_img{
+        width: 315px;
+        height: 329.31px;
+    }
+    
+    .layout_contacto{
+        width: 100%;
+        height: 714px;
+    }
+    
+    .layout_contacto_titulo{
+        width: 100%;
+        height: 38px;
+    }
+    .layout_contacto_h1{
+        font-size: 35px;
+        margin-top: 50px;
+    }
+    .layout_contacto_form{
+        margin-top: 120px;
+    }
+    
+    .layout_contacto_nombreymail{
+        gap: 20px;   
+    }
+    
+    #nombre{
+        width: 37.5%;
+        height: 50px;
+        font-size: 20px;
+    }
+    #email{
+        width: 37.5%;
+        height: 50px;
+        font-size: 20px;
+    }
+    .layout_contacto_mensaje{
+        height: 80px; 
+    }
+    
+    #mensaje{
+        width: 63%;
+        height: 151px;
+        padding: 40px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    
+    .layout_contacto_enviar{ 
+        margin-top: 220px;  
+    }
+    
+    #enviar{
+        width: 140px;
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .layout_footer{
+        width: 100%;
+        height: 143px;
+    }
+    
+    .layout_footer_redes{
+        gap: 20px;
+        padding-top: 30px;
+    }
+
+    .layout_footer_redes_logos{
+        width: 65px;
+        height: 65px;
+    }
+
+    .layout_footer_copy{
+        width: 100%;
+        height: 13px;
+        padding-top: 10px;
+    }
+    .layout_footer_copy_h2{
+        font-size: 12px;
+    }
+    }
+    
+  /*Adaptación para medida de pantalla de mi ordenador a 1232px */
+
+@media (width: 1232px) {
+    .layout_trabajos_titulo_h1{
+        top: -30%;
+    }
+    
+    .layout_trabajos_articulos_bloque{
+        display: flex;
+        flex-wrap: nowrap;   
+    }
+    .trabajos_img{
+        width: 200px;
+        height: 200px;   
+    }
+    .layout_trabajos{
+        height: 30%;
+    }
+    .layout_footer_redes_logos{
+        width: 84px;
+        height: 84px;
+        border-radius: 100%;
+    }
+}
+
+@media (min-width:650px) and (max-width:770px){
+    .layout_trabajos{
+        width: 100%;
+        height: 2000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #FFF4F4;   
+    }
+
+}
+
+@media (min-width:770px) and (max-width:1232px){
+.layout_trabajos{
+    height: 2000px;
+}
+}
+
+
+@media (min-width:1232px) and (max-width:1395px) {
+    .layout_trabajos{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #FFF4F4;        
+    }
+
+}
+
+
+@media (min-width:376px) and (max-width:720px){
+    .layout_contacto_nombreymail{
+        gap: 16px;   
+    }
+    
+    #nombre{
+        width: 35.5%;
+        height: 50px;
+        font-size: 20px;
+    }
+    #email{
+        width: 35.5%;
+        height: 50px;
+        font-size: 20px;
+    }
+    .layout_contacto_mensaje{
+        height: 80px; 
+    }
+    
+    #mensaje{
+        width: 63%;
+        height: 151px;
+        padding: 40px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width:721px) and (max-width:1232px){
+    .layout_contacto_nombreymail{
+        gap: 28px;   
+    }
+    #nombre{
+        width: 33.5%;
+        height: 50px;
+        font-size: 20px;
+    }
+    #email{
+        width: 33.5%;
+        height: 50px;
+        font-size: 20px;
+    }
+}
