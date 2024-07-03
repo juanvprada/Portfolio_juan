@@ -9,9 +9,12 @@ body {
     margin-left: 10%;
     margin-right: 10%;
 
+    /* Animación para que la página se abra progresivamente en cuanto a tamaño -Está definida abajo en layout_masSobremi_h1 */
     animation: animationSobreMi;
     animation-duration: 4s;
 }
+
+/* Contenido de esta página */
 
 .layout {
     width: 100%;
@@ -19,7 +22,7 @@ body {
     background-color: #FBD9D9;
 }
 
-/* Estilos para la cabecera*/
+/* Sección cabecera*/
 .layout_cabecera {
     background-color: white;
     height: 5%;
@@ -44,7 +47,7 @@ nav {
 .layout_cabecera_botones_span {
     font-family: "Julius Sans One", sans-serif;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.375rem;
     border: none;
 }
 
@@ -63,7 +66,7 @@ a {
     color: black;
 }
 
-/* Estilos para el resto de la página*/
+/* Sección con contenido principal de la página*/
 
 .layout_masSobremi {
     width: 100%;
@@ -83,7 +86,7 @@ a {
 
 .layout_masSobremi_h1 {
     text-align: center;
-    font-size: 25px;
+    font-size: 1.56rem;
     font-weight: 400;
     font-family: "Julius Sans One", sans-serif;
     color: #FF4A4A;
@@ -94,6 +97,7 @@ a {
     animation-duration: 4s;
 }
 
+/* Animación para que el título principal vaya agrandándose progresivamente mientras se abre la página */
 @keyframes animationSobreMi {
     0% {
         transform: scale(0);
@@ -127,7 +131,7 @@ a {
 }
 
 .layout_sobremi_textos_parrafo {
-    font-size: 25px;
+    font-size: 1.56rem;
     font-weight: 400;
     font-family: "Julius Sans One", sans-serif;
 }
@@ -151,14 +155,14 @@ a {
 }
 
 .fotosTecnologias {
-    width: 114px;
-    height: 114px;
+    width: 7.125rem;
+    height: 7.125rem;
     border-radius: 100%;
 }
 
 .pieTecnologias {
     text-align: center;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
     color: #FF4A4A;
     font-family: "Julius Sans One", sans-serif;
@@ -211,8 +215,8 @@ a {
 }
 
 .fotosAficiones {
-    width: 150px;
-    height: 150px;
+    width: 9.375rem;
+    height: 9.375rem;
     border-radius: 100%;
 }
 
@@ -224,8 +228,8 @@ a {
 }
 
 .layout_masSobremi_articulos_art2_iconos2_bloques {
-    width: 235px;
-    height: 304px;
+    width: 14.68rem;
+    height: 19rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -237,14 +241,14 @@ a {
 }
 
 .aficiones_img {
-    width: 150px;
-    height: 150px;
+    width: 9.375rem;
+    height: 9.375rem;
     border-radius: 100%;
 }
 
 .layout_aficiones_h2 {
     text-align: center;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
     color: #FF4A4A;
     font-family: "Julius Sans One", sans-serif;
@@ -252,6 +256,7 @@ a {
     padding-top: 2%;
 }
 
+/* ADAPTACIÓN A OTRAS MEDIDAS */
 
 @media (max-width: 767px) {
 
@@ -269,17 +274,34 @@ a {
         padding: 0%;
     }
 
+    /* Contenido general de la página */
     .layout {
         width: 100%;
     }
 
+    /* Encabezado */
+
     .layout_cabecera {
         width: 100%;
     }
+    .layout_cabecera_botones {
+        width: 100%;
+        height: 0.812rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .layout_cabecera_botones_span {
+        font-family: "Julius Sans One", sans-serif;
+        font-weight: lighter;
+        font-size: 0.75rem;
+    }
+
+    /* Sección Más Sobre Mí */
 
     .layout_masSobremi_h1 {
         text-align: center;
-        font-size: 25px;
+        font-size: 1.56rem;
         font-weight: 400;
         font-family: "Julius Sans One", sans-serif;
         color: #FF4A4A;
@@ -289,19 +311,6 @@ a {
 
     .layout_masSobremi_articulos_art2_iconos2_123aficiones a article {
         width: 100%;
-    }
-
-    .layout_cabecera_botones {
-        width: 100%;
-        height: 13px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .layout_cabecera_botones_span {
-        font-family: "Julius Sans One", sans-serif;
-        font-weight: lighter;
-        font-size: 12px;
     }
 
     .layout_masSobremi {
@@ -314,7 +323,7 @@ a {
 
     .layout_masSobremi_h1 {
         text-align: center;
-        font-size: 25px;
+        font-size: 1.56rem;
         font-weight: 400;
         font-family: "Julius Sans One", sans-serif;
         color: #FF4A4A;
@@ -323,14 +332,14 @@ a {
     }
 
     .fotosTecnologias {
-        width: 80px;
-        height: 80px;
+        width: 5rem;
+        height: 5rem;
         border-radius: 100%;
     }
 
     .aficiones_img {
-        width: 110px;
-        height: 110px;
+        width: 6.87rem;
+        height: 6.87rem;
         border-radius: 100%;
     }
 }
@@ -338,9 +347,11 @@ a {
 
 @media (min-width:475px) and (max-width:1392px) {
 
+    /* Sección Más Sobre Mí */
+
     .layout_masSobremi_h1 {
         text-align: center;
-        font-size: 25px;
+        font-size: 1.56rem;
         font-weight: 400;
         font-family: "Julius Sans One", sans-serif;
         color: #FF4A4A;
@@ -353,9 +364,11 @@ a {
 
 @media (min-width:795px) and (max-width:1392px) {
 
+    /* Sección Más Sobre Mí */
+
     .layout_masSobremi_h1 {
         text-align: center;
-        font-size: 25px;
+        font-size: 1.56rem;
         font-weight: 400;
         font-family: "Julius Sans One", sans-serif;
         color: #FF4A4A;

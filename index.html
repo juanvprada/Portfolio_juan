@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+<!-- Metadatos de la página -->
 
 <head>
     <meta charset="UTF-8">
@@ -15,10 +16,11 @@
 </head>
 
 <body>
-    <!-- layout es el contenedor donde va a estar todo el contenido-->
+    <!-- Contenedor general de la página-->
     <main class="layout">
-        <!-- Header contiene todo el encabezado hasta la foto-->
+        <!-- Espacio del Encabezado-->
         <header class="layout_cabecera">
+            <!-- Barra de navegación -->
             <nav>
                 <section class="layout_cabecera_botones">
                     <button class="layout_cabecera_botonesArriba" type="button">
@@ -36,6 +38,7 @@
                     </button>
                 </section>
             </nav>
+            <!-- TÍtulo principal y foto -->
             <section class="layout_cabecera_logo">
                 <section class="layout_cabecera_logo_titulo">
                     <h1 class="layout_cabecera_logo_titulo_h1">Juan Vázquez</h1>
@@ -47,23 +50,28 @@
                 </section>
             </section>
         </header>
-        <!-- layout_sobremi incluye el apartado Sobre Mí hasta el párrafo de presentación-->
+        <!-- Sección Acerca de mí-->
         <section class="layout_sobremi">
+            <!-- Título y texto-->
             <section class="layout_sobremi_textos">
                 <h1 class="layout_sobremi_textos_titulo">Sobre mí</h1>
                 <p class="layout_sobremi_textos_parrafo">Soy un desarrollador Web Full Stack con sede de Madrid,
                     apasionado por la creatividad y el mundo web en busca de nuevos retos y aprendizajes </p>
             </section>
         </section>
-        <!-- layout_trabajos contiene todo los proyectos realizados-->
+        <!-- Sección Trabajos-->
         <section class="layout_trabajos">
+            <!-- Título de Trabajos-->
             <section class="layout_trabajos_titulo">
                 <a href="./index.html" target="_parent" rel="noopener noreferrer">
                     <h1 class="layout_trabajos_titulo_h1" id="enlaceTrabajos"> TRABAJOS</h1>
                 </a>
             </section>
+            <!-- Espacio para Artículos-->
             <section class="layout_trabajos_articulos">
+                <!-- Bloque 1 de 4 artículos-->
                 <section class="layout_trabajos_articulos_bloque">
+                    <!-- Trabajo 1 -->
                     <a href="https://www.youtube.com/watch?v=p6vN06ypccM" target="_blank" rel="noopener noreferrer">
                         <article class="layout_trabajos_trabajo">
                             <img class="trabajos_img" src="assets/imgs/trabajos/trabajo1.jfif" alt="">
@@ -71,6 +79,7 @@
                             <h3 class="layout_trabajos_h3">HTML-CSS-JS</h3>
                         </article>
                     </a>
+                    <!-- Trabajo 2 -->
                     <a href="https://www.youtube.com/watch?v=TrJSMk87CpE" target="_blank" rel="noopener noreferrer">
                         <article class="layout_trabajos_trabajo">
                             <img class="trabajos_img" src="assets/imgs/trabajos/trabajo2.jfif" alt="">
@@ -78,6 +87,7 @@
                             <h3 class="layout_trabajos_h3">HTML-CSS-JS</h3>
                         </article>
                     </a>
+                    <!-- Trabajo 3 -->
                     <a href="https://www.youtube.com/watch?v=iAqzZ63Da94" target="_blank" rel="noopener noreferrer">
                         <article class="layout_trabajos_trabajo">
                             <img class="trabajos_img" src="assets/imgs/trabajos/trabajo3.jfif" alt="">
@@ -85,6 +95,7 @@
                             <h3 class="layout_trabajos_h3">HTML-CSS-JS</h3>
                         </article>
                     </a>
+                    <!-- Trabajo 4 -->
                     <a href="https://www.youtube.com/watch?v=LVMe24n3aH4" target="_blank" rel="noopener noreferrer">
                         <article class="layout_trabajos_trabajo">
                             <img class="trabajos_img" src="assets/imgs/trabajos/trabajo4.jfif" alt="">
@@ -93,7 +104,9 @@
                         </article>
                     </a>
                 </section>
+                <!-- Bloque 2 de 4 artículos-->
                 <section class="layout_trabajos_articulos_bloque">
+                    <!-- Trabajo 5 -->
                     <a class="enlacesTrabajos" href="https://www.youtube.com/watch?v=LVMe24n3aH4" target="_blank"
                         rel="noopener noreferrer">
                         <article class="layout_trabajos_trabajo">
@@ -102,6 +115,7 @@
                             <h3 class="layout_trabajos_h3">HTML-CSS-JS</h3>
                         </article>
                     </a>
+                    <!-- Trabajo 6 -->
                     <a class="enlacesTrabajos" href="https://www.youtube.com/watch?v=ggtZ_1ioCM4" target="_blank"
                         rel="noopener noreferrer">
                         <article class="layout_trabajos_trabajo">
@@ -110,6 +124,7 @@
                             <h3 class="layout_trabajos_h3">HTML-CSS-JS</h3>
                         </article>
                     </a>
+                    <!-- Trabajo 7 -->
                     <a class="enlacesTrabajos"
                         href="https://www.youtube.com/watch?v=zCQOZCwroR0&list=PLOnPFuSyW6A7ZtezUHoo2wgPP5wsc-u3f&index=2"
                         target="_blank" rel="noopener noreferrer">
@@ -119,6 +134,7 @@
                             <h3 class="layout_trabajos_h3">HTML-CSS-JS</h3>
                         </article>
                     </a>
+                    <!-- Trabajo 8 -->
                     <a class="enlacesTrabajos" href="https://www.youtube.com/watch?v=wZTDeTA3pLA" target="_blank"
                         rel="noopener noreferrer">
                         <article class="layout_trabajos_trabajo">
@@ -130,8 +146,9 @@
                 </section>
             </section>
         </section>
-        <!-- En layout_contacto encontramos un formulario de contacto-->
+        <!-- Sección Contacto-->
         <section class="layout_contacto">
+            <!-- Título contacto -->
             <section class="layout_contacto_titulo">
                 <a href="./index.html" target="_parent" rel="noopener noreferrer">
                     <h1 class="layout_contacto_h1" id="enlaceContacto">
@@ -139,33 +156,42 @@
                     </h1>
                 </a>
             </section>
+            <!-- Formulario de contacto -->
             <form autocomplete="off" class="layout_contacto_form" action="/enviar_mensaje" method="post"
                 target="_blank">
+                <!-- Espacio para nombre y mail -->
                 <div class="layout_contacto_nombreymail">
                     <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
                     <input type="email" id="email" name="email" placeholder="Email" required>
                 </div>
+                <!-- Cuerpo del mensaje -->
                 <div class="layout_contacto_mensaje">
                     <input type="text" id="mensaje" name="mensaje" placeholder="Mensaje" required>
                 </div>
+                <!-- Botón enviar -->
                 <div class="layout_contacto_enviar">
                     <input id="enviar" type="submit" value="Enviar">
                 </div>
             </form>
         </section>
-        <!-- El layout_footer contiene los logos de redes sociales, pinchando se accede a ellas-->
+        <!-- Sección Footer-->
         <footer class="layout_footer">
+            <!-- Redes sociales -->
             <section class="layout_footer_redes">
+                <!-- Twitter -->
                 <a href="https://x.com/?mx=2" target="_blank" rel="noopener noreferrer">
                     <img class="layout_footer_redes_logos" src="assets/imgs/Redes/twitter.webp" alt="Twitter">
                 </a>
+                <!-- LinkdIn -->
                 <a href="https://es.linkedin.com/" target="_blank" rel="noopener noreferrer">
                     <img class="layout_footer_redes_logos" src="assets/imgs/Redes/linkdin.png" alt="LinkdIn">
                 </a>
+                <!-- GitHub -->
                 <a href="https://github.com/apps/desktop" target="_blank" rel="noopener noreferrer">
                     <img class="layout_footer_redes_logos" src="assets/imgs/Redes/github.png" alt="GitHub">
                 </a>
             </section>
+            <!-- Copy Right -->
             <div class="layout_footer_copy">
                 <h2 class="layout_footer_copy_h2">
                     @2024 Juan Vázquez Prada

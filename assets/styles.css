@@ -1,4 +1,6 @@
 
+/* ESTILOS PARA 1392px -MEDIDA EN QUE APARECE PROYECTO EN FIGMA- */
+
 body{
     background-color: black;
     width: 80%;
@@ -8,9 +10,13 @@ body{
     margin-right: 10%;   
 }
 
+/* Contenedor general de la página */
+
 .layout{
     width: 100%; 
 }
+
+/* Contenedor general de la página */
 
 .layout_cabecera{
     background-image: url(../assets/imgs/Fondos/fondocabecera.png);
@@ -24,19 +30,20 @@ nav{
     display: flex;
     justify-content: end;
     
+    
 }
 
 .layout_cabecera_botones{
     display: flex;
     flex-direction: row;
     justify-content: end;
-    margin-right: 50px;
-    margin-top: 22px;
+    margin-right: 4%;
+    margin-top: 2%;
 }
 .layout_cabecera_botones_span{
     font-family: "Julius Sans One", sans-serif;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.375rem;
     border: none;
 }
 
@@ -44,7 +51,7 @@ nav{
     border: none;
     background-color: #FBD9D9; 
     border-radius: 3%;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 
@@ -81,6 +88,7 @@ a{
     animation-duration: 4s;
 }
 
+/* Animación borde título principal */
 @keyframes mianimationborde {
     0% {border: 1px solid black;}
     25% {border: 1px solid gray;}
@@ -90,7 +98,7 @@ a{
 }
 .layout_cabecera_logo_titulo_h1{
     font-weight: 400;
-    font-size: 50px;
+    font-size: 3.125rem;
     text-align: center;
     font-family: "Julius Sans One", sans-serif;
     margin-block-start: 0%;
@@ -103,6 +111,7 @@ a{
 
 }
 
+/* Animación color título principal */
 @keyframes animaciontitulo {
     0% {
         transform: scale(0);
@@ -116,7 +125,7 @@ a{
 
 .layout_cabecera_logo_titulo_h2{
     font-weight: 400;
-    font-size: 35px;
+    font-size: 2.18rem;
     text-align: center;
     font-family: "Julius Sans One", sans-serif;
     margin-block-start: 0%;
@@ -126,6 +135,7 @@ a{
     animation-duration: 4s;
 }
 
+/* Animación color h2 de título principal */
 @keyframes animaciontituloh2 {
     0% {
         transform: scale(0);
@@ -143,17 +153,18 @@ a{
 .layout_cabecera_logo_foto{
     display: flex;
     justify-content: center;
-    width: 300px;
-    height: 300px;
+    width: 18.75rem;
+    height: 18.75rem;
     margin-top: 8%; 
 }
 
 #foto_juan{
-    width: 250px;
-    height: 250px;
+    width: 15.6rem;
+    height: 15.6rem;
     border-radius: 100%;
 }
 
+/* Sección Acerca de mí */
 
 .layout_sobremi{
     display: flex;
@@ -165,7 +176,7 @@ a{
 
 .layout_sobremi_textos{
     width: 70%;
-    height: 16px;
+    height: 1rem;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -173,16 +184,18 @@ a{
 }
 .layout_sobremi_textos_titulo{
     color: #FF6A6A;
-    font-size: 33px;
+    font-size: 2.06rem;
     font-weight: 400;
     font-family: "Julius Sans One", sans-serif;
 }
 
 .layout_sobremi_textos_parrafo{
-    font-size: 25px;
+    font-size: 1.56rem;
     font-weight: 400;
     font-family: "Julius Sans One", sans-serif;
 }
+
+/* Sección Trabajos */
 
 .layout_trabajos{
     height: 29%;
@@ -201,7 +214,7 @@ a{
 
 .layout_trabajos_titulo_h1{
     color: #FF6A6A;
-    font-size: 38px;
+    font-size: 2.375rem;
     font-weight: 400;
     font-family: "Julius Sans One", sans-serif;
     position: relative;
@@ -234,13 +247,13 @@ a{
 }
 
 .layout_trabajos_h2{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     font-family: "Julius Sans One", sans-serif;
     color: black;   
 }
 .layout_trabajos_h3{
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
     font-family: "Julius Sans One", sans-serif;
     color: #FF4A4A;
@@ -248,10 +261,12 @@ a{
     top: -8%;
 }
 .trabajos_img{
-    width: 235px;
-    height: 235px;
-    border-radius: 5px;
+    width: 12.68rem;
+    height: 12.68rem;
+    border-radius: 0.312rem;
 }
+
+/* Sección Contacto */
 
 .layout_contacto{
     background-color: white;
@@ -266,7 +281,7 @@ a{
     height: 10%;
 }
 .layout_contacto_h1{
-    font-size: 38px;
+    font-size: 2.375rem;
     font-weight: 400;
     font-family: "Julius Sans One", sans-serif;
     margin-top: 30%;
@@ -289,10 +304,10 @@ a{
 #nombre{
     width: 23%;
     height: 100%;
-    border: 2px solid black;
-    border-radius: 5px;
+    border: 0.125rem solid black;
+    border-radius: 0.312rem;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.56rem;
     font-weight: 400;
     font-family: "Julius Sans One", sans-serif;
     color: black;
@@ -300,10 +315,10 @@ a{
 #email{
     width: 23%;
     height: 100%;
-    border: 2px solid black;
-    border-radius: 5px;
+    border: 0.125rem solid black;
+    border-radius: 0.312rem;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.56rem;
     font-weight: 400;
     font-family: "Julius Sans One", sans-serif;
     color: black;
@@ -319,10 +334,10 @@ a{
     height: 150%;
     padding: 4%;
     margin-top: 3%;
-    border: 2px solid black;
-    border-radius: 5px;
+    border: 0.125rem solid black;
+    border-radius: 0.312rem;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.56rem;
     font-weight: 400;
     font-family: "Julius Sans One", sans-serif;
     color: black;
@@ -342,10 +357,10 @@ input::placeholder{
     width: 12%;
     height: 100%;
     background-color: #FFD4D4;
-    border: 2px solid #FF4A4A;
-    border-radius: 5px;
+    border: 0.125rem solid #FF4A4A;
+    border-radius: 0.312rem;
     color: #FF4A4A;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 400;
 }
 #enviar:hover{
@@ -355,6 +370,8 @@ button{
     background-color:#FBD9D9;
     border: none;
 }
+
+/* Sección Footer */
 
 .layout_footer{
     background-color: #FFA4A4;
@@ -370,8 +387,8 @@ button{
 }
 
 .layout_footer_redes_logos{
-    width: 114px;
-    height: 114px;
+    width: 7.125rem;
+    height: 7.125rem;
     border-radius: 100%;
 }
 .layout_footer_redes_logos:hover{
@@ -384,7 +401,7 @@ button{
     padding-top: 5%;
 }
 .layout_footer_copy_h2{
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
     font-family: "Julius Sans One", sans-serif;
     color: black;
