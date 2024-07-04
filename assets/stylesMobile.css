@@ -2,405 +2,215 @@
 /* ADAPTACIÓN DE ESTILOS PARA DISTINTOS TAMAÑOS */
 
 @media (min-width:375px) and (max-width:1231px) {
-    body{
+    body {
         width: 100%;
         height: 100%;
         display: flex;
         margin: 0%;
-        padding: 0%;    
+        padding: 0%;
     }
-    
-    /* Contenedor general de la página */
 
-    .layout{
-        width: 100%; 
-    }
 
     /* Encabezado */
-    
-    .layout_cabecera{
-        background-image: url(../assets/imgs/Fondos/fondocabecera.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 375px;
-    }
-    
-    nav{
+
+    nav {
         width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: center;  
+        justify-content: center;
     }
-    
-    .layout_cabecera_botones{
-        width: 100%;
-        height: 13px;
+
+    .layout_cabecera_botones {
         display: flex;
         justify-content: space-around;
         align-items: end;
-    }
-    .layout_cabecera_botones_span{
-        font-family: "Julius Sans One", sans-serif;
-        font-weight: lighter;
-        font-size: 12px;
-    }
-    
-    .layout_cabecera_logo{
-        margin-top: 40px;
-    }
-    .layout_cabecera_logo_titulo{
-        width: 262px;
-        height: 125px;
-        margin-top: 8px;
-         
-    }
-    .layout_cabecera_logo_titulo_h1{
-        font-size: 25px;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-    
-    .layout_cabecera_logo_titulo_h2{
-        font-size: 18px;
-    }
-    
-    .layout_cabecera_logo_foto{
-        margin-top: 80px; 
-    }
-    
-    #foto_juan{
-        width: 150px;
-        height: 151.52px;
+        margin-right: 0;
     }
 
     /* Sección Acerca de mí */
-    
-    .layout_sobremi{
-        background-color: white;
+
+    /* Trabajos */
+
+    /* Contacto */
+
+    /* Footer */
+
+    .layout_footer {
         width: 100%;
-        height: 550px;
-    }
-    
-    .layout_sobremi_textos{
-        width: 261px;
-        height: 344px;
-        margin-top: 120px;
-    }
-    .layout_sobremi_textos_titulo{
-        font-size: 33px;
-    }
-    
-    .layout_sobremi_textos_parrafo{
-        font-size: 20px;
+        height: 8.938rem;
     }
 
-     /* Trabajos */
-    
-    .layout_trabajos{
+    .layout_footer_redes {
+        gap: 5.5%;
+        padding: 0;
+        padding-top: 1.9rem;
+
+    }
+
+    .layout_footer_redes_logos {
+        width: 4.063rem;
+        height: 4.063rem;
+    }
+
+    .layout_footer_copy {
         width: 100%;
-        height: 3733px;   
+        height: 0.813rem;
+        padding-top: 1.1rem;
     }
-    
-    .layout_trabajos_titulo{
+
+    .layout_footer_copy_h2 {
+        font-size: 0.75rem;
+    }
+
+}
+
+
+
+/* HASTA 900px PARA CAMBIAR TAMAÑO TÍTULO Y CAMBIAR DIRECCIÓN DEL FORM */
+
+@media (min-width:375px) and (max-width:900px) {
+
+    /* Encabezado */
+
+    .layout_cabecera_logo_titulo_h1 {
+        font-size: 2.5rem;
+
+    }
+
+    .layout_cabecera_logo_titulo_h2 {
+        font-size: 1.7rem;
+
+    }
+
+    /* Contacto */
+
+    .layout_cabecera_logo {
+        
+        padding: 220px 0;
+    }
+
+
+    .layout_contacto {
         width: 100%;
-        height: 33px;
-        margin-bottom: 14%;
-        margin-top: 2%;
+        padding-top: 0;
+        justify-content: center;
+        align-items: center;
     }
-    
-    .layout_trabajos_titulo_h1{
-        font-size: 30px; 
+
+
+    .layout_contacto_titulo {
+        width: 100%;
+        height: 2.375rem;
     }
+
+    .layout_contacto_h1 {
+        font-size: 2.188rem;
+        margin-top: 3.125rem;
+    }
+
+    .layout_contacto_form {
+        margin-top: 7.5rem;
+        align-items: center;
+        width: 80%;
+    }
+
+    .layout_contacto_nombreymail {
+        gap: 0.1%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    #nombre {
+        width: 100%;
+        height: 3.125rem;
+        font-size: 1.25rem;
+        margin-bottom: 5%;
+        box-sizing: border-box;
+    }
+
+    #email {
+        width: 100%;
+        height: 3.125rem;
+        font-size: 1.25rem;
+        box-sizing: border-box;
+    }
+
+    .layout_contacto_mensaje {
+        height: 5rem;
+        width: 100%;
+    }
+
+    #mensaje {
+        width: 100%;
+        height: 9.438rem;
+        padding: 2.5rem;
+        margin-top: 1.25rem;
+        font-size: 1.25rem;
+        margin-top: 5%;
+    }
+
+    .layout_contacto_enviar {
+        margin-top: 13.75rem;
+    }
+
+    #enviar {
+        width: 8.75rem;
+        height: 3.125rem;
+        font-size: 1.563rem;
+    }
+
+
+}
+
+/* HASTA 650px PARA CAMBIAR TAMAÑO TÍTULO y CUADRAR BIEN LA FOTO */
+
+@media (min-width:375px) and (max-width:650px) {
+
+    .layout_cabecera_logo_titulo_h1 {
+        font-size: 2.0rem;
+
+    }
+
+    .layout_cabecera_logo_titulo_h2 {
+        font-size: 1.3rem;
+
+    }
+
+    .layout_cabecera_logo {
+        
+        padding: 230px 0;
+    }
+
+
+    .layout_sobremi {
+        padding-top: 50px;
+    }
+   
+
+}
+
+/* HASTA 401px PARA CAMBIAR TAMAÑO LETRA DE BOTONES NAV */
+
+@media (min-width:375px) and (max-width:401px) {
+
+    .layout_cabecera_botones_span {
+        font-size: 1.1rem;
+    }
+
+}
+
+@media (min-width:634px) and (max-width:863px) {
+
     .layout_trabajos_articulos{
-        width: 100%;
-        height: 100%;
+        flex-direction: row;
+
     }
     
-    .layout_trabajos_trabajos{
-        width: 315px;
-        height: 426px;
-    }
-    
-    .layout_trabajos_articulos_bloque{
-        gap: 20px;  
-    }
-    
-    .layout_trabajos_h2{
-        font-size: 20px;
-    }
-    .layout_trabajos_h3{
-        font-size: 18px;
-        top: -30px;
-    }
-    .trabajos_img{
-        width: 315px;
-        height: 329.31px;
-    }
-
-     /* Contacto */
-    
-    .layout_contacto{
-        width: 100%;
-        height: 714px;
-    }
-    
-    .layout_contacto_titulo{
-        width: 100%;
-        height: 38px;
-    }
-    .layout_contacto_h1{
-        font-size: 35px;
-        margin-top: 50px;
-    }
-    .layout_contacto_form{
-        margin-top: 120px;
-    }
-    
-    .layout_contacto_nombreymail{
-        gap: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-left: 7.5%;
-        width: 223%;
-    }
-    
-    #nombre{
-        width: 37.5%;
-        height: 50px;
-        font-size: 20px;
-        margin-bottom: 2%;
-    }
-    #email{
-        width: 37.5%;
-        height: 50px;
-        font-size: 20px;
-    }
-    .layout_contacto_mensaje{
-        height: 80px; 
-    }
-    
-    #mensaje{
-        width: 63%;
-        height: 151px;
-        padding: 40px;
-        margin-top: 20px;
-        font-size: 20px;
-    }
-    
-    .layout_contacto_enviar{ 
-        margin-top: 220px;  
-    }
-    
-    #enviar{
-        width: 140px;
-        height: 50px;
-        font-size: 25px;
-    }
-
-     /* Footer */
-
-    .layout_footer{
-        width: 100%;
-        height: 143px;
-    }
-    
-    .layout_footer_redes{
-        gap: 20px;
-        padding-top: 30px;
-    }
-
-    .layout_footer_redes_logos{
-        width: 65px;
-        height: 65px;
-    }
-
-    .layout_footer_copy{
-        width: 100%;
-        height: 13px;
-        padding-top: 10px;
-    }
-    .layout_footer_copy_h2{
-        font-size: 12px;
-    }
-    }
-    
-  /*Adaptación para medida de pantalla de mi ordenador a 1232px */
-
-@media (width: 1232px) {
-    .layout_trabajos_titulo_h1{
-        top: -30%;
-    }
-    .layout_contacto_enviar{
-        margin-top: 22%;
-    }
-    
-
-    /*Sección Trabajos */
-    
-    .layout_trabajos_articulos_bloque{
-        display: flex;
-        flex-wrap: nowrap;   
-    }
-    .trabajos_img{
-        width: 200px;
-        height: 200px;   
-    }
-    .layout_trabajos{
-        height: 30%;
-    }
-
-    /*Sección Contacto */
-    
-    .layout_contacto_nombreymail{
-        gap: 20px;   
-    }
-    
-    #nombre{
-        width: 35.5%;
-        height: 50px;
-        font-size: 20px;
-    }
-    #email{
-        width: 35.5%;
-        height: 50px;
-        font-size: 20px;
-    }
-    .layout_contacto_mensaje{
-        height: 80px; 
-    }
-    
-    #mensaje{
-        width: 63%;
-        height: 151px;
-        padding: 40px;
-        margin-top: 20px;
-        font-size: 20px;
-    }
-
-    /*Sección Footer */
-
-    .layout_footer_redes_logos{
-        width: 84px;
-        height: 84px;
-        border-radius: 100%;
-    }
-}
-
-
-@media (min-width:650px) and (max-width:770px){
-
-    /*Sección Trabajos */
-
-    .layout_trabajos{
-        width: 100%;
-        height: 2000px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: #FFF4F4;   
-    }
-
-}
-
-@media (min-width:770px) and (max-width:1232px){
-
-    /*Sección Trabajos */
-
-.layout_trabajos{
-    height: 2000px;
-}
-}
-
-
-@media (min-width:1232px) and (max-width:1392px) {
-
-    /*Sección Trabajos */
-
-    .layout_trabajos{
-        width: 100%;
-        height: 30%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: #FFF4F4;        
-    }
 
 }
 
 
-@media (min-width:376px) and (max-width:720px){
 
-    /*Sección Contacto */
-
-    .layout_contacto_nombreymail{
-        gap: 16px;   
-    }
-    
-    #nombre{
-        width: 35.5%;
-        height: 50px;
-        font-size: 20px;
-    }
-    #email{
-        width: 35.5%;
-        height: 50px;
-        font-size: 20px;
-    }
-    .layout_contacto_mensaje{
-        height: 80px; 
-    }
-    
-    #mensaje{
-        width: 63%;
-        height: 151px;
-        padding: 40px;
-        margin-top: 20px;
-        font-size: 20px;
-    }
-}
-
-@media (min-width:721px) and (max-width:1232px){
-
-    /*Sección Contacto */
-
-    .layout_contacto_nombreymail{
-        gap: 28px;   
-    }
-    #nombre{
-        width: 33.5%;
-        height: 50px;
-        font-size: 20px;
-    }
-    #email{
-        width: 33.5%;
-        height: 50px;
-        font-size: 20px;
-    }
-}
-
-@media (min-width:375px) and (max-width:479px){
-
-    /*Sección Contacto */
-
-    .layout_contacto_nombreymail{
-        gap: 6%;   
-    }
-}
-
-@media (min-width:480px) and (max-width:670px){
-    
-    /*Sección Contacto */
-    .layout_contacto_nombreymail{
-        gap: 3%;   
-    }
-}
-
-@media (min-width:1232px) and (max-width:1250px){
-    
-    /*Sección Contacto */
-    .layout_contacto_nombreymail{
-        gap: 3%;   
-    }
-}
