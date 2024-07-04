@@ -23,7 +23,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 25%;
+
 }
 
 nav{
@@ -73,13 +73,12 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20%;
+    padding: 200px 0;
+ 
 }
 .layout_cabecera_logo_titulo{
     display: flex;
     flex-direction: column;
-    width: 45%;
-    height: 6.5%;
     border: 1px solid black;
     padding: 1%;
     
@@ -153,9 +152,10 @@ a{
 .layout_cabecera_logo_foto{
     display: flex;
     justify-content: center;
-    width: 18.75rem;
-    height: 18.75rem;
-    margin-top: 8%; 
+    width: 15.6rem;
+    height: 15.6rem;
+    margin-top: 35rem;
+    position: absolute;
 }
 
 #foto_juan{
@@ -171,16 +171,17 @@ a{
     flex-direction: column;
     align-items: center;
     background-color: white;
-    height: 16%;
+    padding-top: 30px;
+    padding-bottom: 60px;
+ 
 }
 
 .layout_sobremi_textos{
     width: 70%;
-    height: 1rem;
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 8%;
+    margin-top: 80px;
 }
 .layout_sobremi_textos_titulo{
     color: #FF6A6A;
@@ -198,12 +199,12 @@ a{
 /* Sección Trabajos */
 
 .layout_trabajos{
-    height: 29%;
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #FFF4F4; 
-    padding-bottom: 4%;
+    padding-bottom: 60px;
 }
 
 .layout_trabajos_titulo{
@@ -270,9 +271,10 @@ a{
 
 .layout_contacto{
     background-color: white;
-    height: 24.119%;
+
     display: flex;
     flex-direction: column;
+    padding: 50px 0 120px;
 }
 
 .layout_contacto_titulo{
@@ -284,14 +286,14 @@ a{
     font-size: 2.375rem;
     font-weight: 400;
     font-family: "Julius Sans One", sans-serif;
-    margin-top: 30%;
+    margin-top: 0;
     color: black;
 }
 .layout_contacto_form{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 10%;
+    margin-top:50px;
 }
 .layout_contacto_nombreymail{
     display: flex;
@@ -350,7 +352,7 @@ input::placeholder{
 .layout_contacto_enviar{
     display: flex;
     justify-content: center;
-    margin-top: 18%;  
+    margin-top: 50px;  
 }
 
 #enviar{
@@ -375,7 +377,7 @@ button{
 
 .layout_footer{
     background-color: #FFA4A4;
-    height: 10%;
+
 }
 
 .layout_footer_redes{
@@ -383,7 +385,7 @@ button{
     flex-wrap: wrap;
     justify-content: center;
     gap: 4%;
-    padding-top: 6%;
+    padding: 40px 0 20px 0;
 }
 
 .layout_footer_redes_logos{
@@ -398,7 +400,7 @@ button{
 .layout_footer_copy{
     display: flex;
     justify-content: center;
-    padding-top: 5%;
+
 }
 .layout_footer_copy_h2{
     font-size: 1.125rem;
